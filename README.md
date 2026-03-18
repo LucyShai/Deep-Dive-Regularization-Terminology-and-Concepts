@@ -29,7 +29,7 @@ Output: Binary classification
 Characteristics: Noisy dataset with a diagonal decision boundary
 
 
-Key Terminology Explained
+Key Terminology Explained 
 Overfitting
 Definition: Model learns training data too well, including noise
 
