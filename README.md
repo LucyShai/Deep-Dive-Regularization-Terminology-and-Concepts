@@ -1,4 +1,3 @@
- Regularization in Deep Neural Networks
 📋 Project Overview
 This project explores regularization techniques to prevent overfitting in deep neural networks. Using a real-world scenario of predicting optimal kick positions for the French football team, we demonstrate how L2 regularization and Dropout can significantly improve model generalization.
 
