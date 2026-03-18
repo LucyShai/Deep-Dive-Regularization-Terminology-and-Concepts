@@ -27,3 +27,43 @@ Output: Binary classification
 🔴 Red dots: Opposing team hits the ball
 
 Characteristics: Noisy dataset with a diagonal decision boundary
+
+
+Key Terminology Explained
+Overfitting
+Definition: Model learns training data too well, including noise
+
+Symptoms: High train accuracy, low test accuracy
+
+Analogy: Memorizing textbook vs learning concepts
+
+
+L2 Regularization (Weight Decay)
+Definition: Adds penalty for large weights to cost function
+
+Effect: Forces weights to be small and distributed
+
+Formula: J_reg = J_original + (λ/2m)Σ||W||²
+
+
+Dropout
+Definition: Randomly deactivates neurons during training
+
+Effect: Creates ensemble of networks, prevents co-adaptation
+
+Analogy: Team members learn to work with any combination of colleagues
+
+
+Inverted Dropout
+Definition: Scales activations during training to maintain expected value
+
+Purpose: No scaling needed during testing
+
+Formula: A_train = (A * mask) / keep_prob
+
+Bias-Variance Tradeoff
+Bias: Error from wrong assumptions (underfitting)
+
+Variance: Error from sensitivity to data (overfitting)
+
+Regularization: Increases bias slightly, decreases variance significantly
